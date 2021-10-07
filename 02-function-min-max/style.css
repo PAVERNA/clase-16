@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+
+.wrapper {
+
+    background-color: darkgoldenrod;
+    min-height: 100vh;
+}
+
+.caja {
+    background-color: coral;
+    /* elije el mas dchico de los dos valores */
+    width: min(300px, 25%);
+}
+
+.cajita {
+    background-color: cornflowerblue;
+    /* max va a elegir al mas grande de los dos valores */
+    width: max(300px, 25%);
+}
+
+.cajon {
+    background-color: darkgreen;
+    /* puedo hacer operaciones matemaricas! simplemente separo las opciones
+    con una coma */
+    width: max(300px, 60% - 25px);
+}

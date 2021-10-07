@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+}
+
+nav{
+ background-color: coral;
+ height: 80px;
+}
+
+
+footer {
+    background-color: blueviolet;
+    height: 80px;
+}
+
+.wrapper {
+    background-color: rgb(158, 149, 138);
+    font-size: 5em;
+    min-height: calc(100vh - 160px);
+    /* 100 vh es la altura de arriba a abajo de toda la pantalla y le restamos los 160
+    del nav y del footer */
+}
